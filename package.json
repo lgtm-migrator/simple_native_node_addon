@@ -1,0 +1,18 @@
+{
+  "name": "build-node-addon-api-with-cmake",
+  "version": "0.0.0",
+  "description": "Build Node-API native addon with CMake and node-addon-api C++ wrapper.",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^1.7.2"
+  },
+  "scripts": {
+    "install": "cmake-js compile",
+    "test": "node index.js"
+  },
+  "devDependencies": {
+    "cmake-js": "^6.2.1"
+  }
+}

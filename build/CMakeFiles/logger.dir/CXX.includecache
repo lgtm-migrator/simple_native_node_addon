@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/logger.h
+string
+-
+
+/home/developer/simple_native_node_addon/lib/src/logger.cpp
+logger.h
+/home/developer/simple_native_node_addon/lib/src/logger.h
+iostream
+-
+

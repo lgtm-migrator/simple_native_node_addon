@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,addon.node -o Release/addon.node CMakeFiles/addon.dir/src/addon.cpp.o   -L/home/developer/simple_native_node_addon/build  -Wl,-rpath,/home/developer/simple_native_node_addon/build /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 -llogger 

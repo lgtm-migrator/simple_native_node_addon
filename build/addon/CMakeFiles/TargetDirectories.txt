@@ -1,0 +1,3 @@
+/home/developer/simple_native_node_addon/build/addon/CMakeFiles/rebuild_cache.dir
+/home/developer/simple_native_node_addon/build/addon/CMakeFiles/edit_cache.dir
+/home/developer/simple_native_node_addon/build/addon/CMakeFiles/addon.dir
