@@ -13,5 +13,5 @@ Logger::~Logger()
 
 void Logger::PrintString(std::string text)
 {
-  std::cout<<text<<std::endl;
+  std::cout<<text<<'\n';
 }
